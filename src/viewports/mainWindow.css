@@ -1,0 +1,256 @@
+
+
+@font-face {
+    font-family: SF Pro Display;
+    src: url("../resources/SFProDisplay-Regular.ttf")
+}
+
+body {
+    margin:0px;
+    height:100vh;
+    width:100%;
+
+    background:#0E0E14;
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.window_icon {
+    fill:#8B8B9E;
+    cursor:pointer;
+    transition:0.2s;
+    float:right;
+
+    margin-left:20px;
+
+    -webkit-app-region: no-drag;
+
+}
+.window_icon:hover {
+    fill:#FFF;
+}
+
+.nav_icon {
+    fill:#8B8B9E;
+    transition:0.2s;
+}
+
+
+.main_wrapper {
+    width: calc(100vw - 230px);
+    height:100%;
+}
+
+
+.head {
+    height:20px;
+
+    width: calc(100vw - 257px);
+
+    padding:21px 27px 0 0;
+    margin:0;
+
+
+    -webkit-app-region: drag;
+}
+.main_body {
+    height: calc(100vh - 81px);
+    width: calc(100vw - 270px);
+
+    margin: 0 20px 40px 20px;
+
+    overflow:hidden;
+}
+
+
+.nav {
+    padding-left:30px;
+    padding-right:30px;
+    width:170px;
+    height:100%;    
+    background: #15151D;
+    display:block;
+
+    -webkit-app-region: drag;
+
+} 
+    .nav .heading {
+        height:80px;
+        width:100%;
+
+        display:flex;
+        justify-content: left;
+        align-items: center;
+
+        margin-bottom:40px;
+    }
+    .nav .logo {
+        width:25px;
+        height:35px;
+        background-image:url("../resources/menuIcons/logo.svg");
+    }
+    .nav h4 {
+        user-select: none;
+        font-family: SF Pro Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0.475em;
+        text-align: center;
+
+        color:white;
+        margin-left:18px;
+    }
+
+    .nav .body {
+        width:100%;
+        margin-bottom:40px;
+    }
+        .nav .body p {
+            user-select: none;
+            font-family: SF Pro Display;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 14px;
+            letter-spacing: 0.115em;
+            text-align: left;
+            color:#8B8B9E;
+
+            transition:0.2s;
+        }
+        .nav .body .menu_item {
+            width:144px;
+            height:20px;
+            padding: 7px 13px 7px 13px;
+            border-radius: 3px;
+            margin-bottom:10px;
+
+            display:flex;
+            justify-content: left;
+            align-items: center;
+
+            cursor:pointer;
+
+            -webkit-app-region: no-drag;
+
+            transition:0.2s;
+        }
+        .nav .body .menu_item:hover {
+            background: #0E0E14;
+
+        }
+        
+        .nav .body .menu_item:hover > #nav_icon-dashboard {
+            fill: white;
+
+        }
+        .nav .body .menu_item:hover > #nav_text-dashboard {
+            color: white;
+
+        }
+        .nav .body .menu_item:hover > #nav_icon-captcha {
+            fill: white;
+
+        }
+        .nav .body .menu_item:hover > #nav_text-captcha {
+            color: white;
+
+        }
+        .nav .body .menu_item:hover > #nav_icon-profiles {
+            fill: white;
+
+        }
+        .nav .body .menu_item:hover > #nav_text-profiles {
+            color: white;
+
+        }
+        .nav .body .menu_item:hover > #nav_icon-proxies {
+            fill: white;
+
+        }
+        .nav .body .menu_item:hover > #nav_text-proxies {
+            color: white;
+        }
+        .nav .body .menu_item:hover > #nav_icon-account_gen {
+            fill: white;
+        }
+        .nav .body .menu_item:hover > #nav_text-account_gen {
+            color: white;
+        }
+        .nav .body .menu_item:hover > #nav_icon-card_gen {
+            fill: white;
+        }
+        .nav .body .menu_item:hover > #nav_text-card_gen {
+            color: white;
+        }
+        .nav .body .menu_item:hover > #nav_icon-email_gen {
+            fill: white;
+        }
+        .nav .body .menu_item:hover > #nav_text-email_gen {
+            color: white;
+        }
+        .nav .body .menu_item:hover > #nav_icon-bot_manager {
+            fill: white;
+        }
+        .nav .body .menu_item:hover > #nav_text-bot_manager {
+            color: white;
+        }
+        
+        .nav .body .menu_title {
+            font-family: SF Pro Display;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #8B8B9E;
+
+            margin:4px 0 0 20px;
+            text-decoration: none;
+        }
+        .nav .user_section {
+            width:170px;
+            height:40px;
+            
+            position:absolute;
+            top: calc(100vh - 72px);
+
+            display:flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+
+        }  
+        .nav .user_section .user_avatar-small {
+            width: 39px;
+            height: 39px;
+            
+            border: 1px solid #393740;
+            box-sizing: border-box;
+            border-radius: 500px;
+            background-image: url(../resources/dashboardAssets/blank-profile.jpg);
+            background-size:contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }    
+        .nav .user_section .menu_minor-buttons {
+            width:22px;
+            height:22px;
+            -webkit-app-region: no-drag;
+            cursor:pointer;
+        }  
+        .nav .user_section .menu_minor-buttons:hover > #nav_icon-settings {
+            fill: white;
+        }
+        .nav .user_section .menu_minor-buttons:hover > #nav_icon-notifications {
+            fill: white;
+        }
+
+
+

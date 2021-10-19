@@ -1,0 +1,14 @@
+[
+	{
+	"version":"1.0.0",
+	"description":"Basic initial features to expand on. Further improvements will be made on the account generator and card generator.",
+	"changes":[
+		"Captcha module",
+		"Profile converter",
+		"Proxy tester",
+		"Account generator",
+		"Card generator",
+		"Bot manager"
+	]
+	}
+]

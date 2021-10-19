@@ -1,0 +1,77 @@
+.button_container {
+    background: #15BABE;
+    border-radius: 3px;
+    height:32px;
+    width:126px;
+
+
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    opacity:1;
+
+    cursor:pointer;
+    transition:0.2s;
+}
+
+.button_container:hover {
+    opacity: 0.8;
+}
+.button_container:active {
+    opacity: 0.5;
+}
+
+
+.button_icon-add {
+    background-image:url('../../resources/buttonIcons/icon_add.svg');
+    width:14px;
+    height:14px;
+}
+.button_icon-save {
+    background-image:url('../../resources/buttonIcons/icon_save.svg');
+    width:24px;
+    height:24px;
+}
+.button_icon-delete {
+    background-image:url('../../resources/buttonIcons/icon_delete.svg');
+    width:24px;
+    height:24px;
+}
+.button_icon-timer {
+    background-image:url('../../resources/buttonIcons/icon_timer.svg');
+    width:24px;
+    height:24px;
+}
+.button_icon-proxy {
+    background-image:url('../../resources/buttonIcons/icon_proxies.svg');
+    width:24px;
+    height:24px;
+}
+.button_icon-start {
+    background-image:url('../../resources/buttonIcons/icon_start.svg');
+    width:12px;
+    height:14px;
+}
+.button_icon-stop {
+    background-image:url('../../resources/buttonIcons/icon_stop.svg');
+    width:14px;
+    height:14px;
+}
+
+
+.button_text {
+    font-family: SF Pro Display;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    user-select: none;
+
+    color:#F1F1F2;
+
+    margin:0;
+}

@@ -1,0 +1,399 @@
+
+.dashboard_col-side {
+    height:100%;
+    width:30%;
+}
+.dashboard_col-main {
+    height:100%;
+    width:68%;
+}
+
+.dashboard_title {
+    font-family: SF Pro Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    color:#F1F1F2;
+
+    user-select: none;
+
+
+    margin: 35px 0 10px 0;
+}
+
+
+
+
+
+
+.dashboard_panel-user {
+    width:100%;
+    height:20%;
+    background: #15151D;
+    border-radius: 3px;
+
+    display:flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.dashboard_panel-user-avatar {
+    width:25%;
+    height:100%;
+
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard_panel-user-avatar-icon {
+    width: 102px;
+    height:102px;
+
+    border-radius: 500px;
+
+    background-color:#0E0E14;
+    background-image: url(../resources/dashboardAssets/blank-profile.jpg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dashboard_panel-user-info {
+    width:30%;
+    height:100%;
+
+    display:inline-flex;
+    flex-wrap: wrap;
+    
+    justify-content: left;
+    align-items:center;
+}
+.dashboard_panel-user-info-title {
+    font-family: SF Pro Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    width:100%;
+
+    color:#8B8B9E;
+
+
+    margin: 10px 0 10px 0;
+    user-select: none;
+}
+.dashboard_panel-user-info-value {
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+    width:100%;
+
+    color:#F1F1F2;
+
+
+    margin: 10px 0 10px 0;
+    user-select: none;
+}
+
+.dashboard_panel-user-sub {
+    width:45%;
+    height:100%;
+
+    display:inline-flex;
+    flex-wrap: wrap;
+    
+    justify-content: left;
+    align-items:center;
+}
+.dashboard_panel-user-sub-wrapper {
+    width:100%;
+}
+.dashboard_panel-user-sub-bar {
+    
+    width:90%;
+    height:6px;
+    
+    background-color:#21212C;
+    border-radius: 3px;
+
+    margin: 18px 0 10px 0;
+}
+.dashboard_panel-user-sub-progress {
+    height:6px;
+    
+    border-radius: 3px;
+
+    margin: 18px 0 10px 0;
+}
+.dashboard_panel-user-sub-text {
+    
+    font-family: SF Pro Display;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    color:#F1F1F2;
+
+    margin: 10px 0 10px 0;
+
+    user-select: none;
+    
+}
+
+
+
+.dashboard_panel-usage {
+    width:100%;
+    height:34%;
+    background: #15151D;
+    border-radius: 3px;
+
+
+}
+.dashboard_panel-usage-value {
+    font-family: SF Pro Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    width:90%;
+    padding: 14px 5% 4px 5%;
+    margin:0;
+
+    color:#F1F1F2;
+
+    user-select: none;
+}
+.dashboard_panel-usage-title {
+    font-family: SF Pro Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;    
+
+    width:90%;
+    padding: 0px 5% 10px 5%;
+    margin:0;
+
+    color:#F1F1F2;
+
+    user-select: none;
+}
+.dashboard_panel-usage-divider { 
+
+    height:1px;
+    width:100%;
+    margin: 0;
+
+    background-color:#343444;   
+}
+.dashboard_panel-usage-graph {
+    height: calc(100% - 102px);
+    width:90%;
+    padding: 0 5% 0 5%;
+
+    position:relative;
+    margin-top:10px;
+}
+
+
+
+.dashboard_panel-statistics {
+    height:20%;
+    width:100%;
+
+    margin: 20px 0px 20px 0px;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.dashboard_panel-statistics-text {
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#8B8B9E;
+
+    margin:12px;
+    user-select: none;
+}
+.dashboard_panel-statistics-value {
+    font-family: SF Pro Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#F1F1F2;
+    
+    margin:12px;
+    user-select: none;
+}
+
+.dashboard_panel-statistics-accounts_farmed-panel {
+    height:100%;
+
+    width:22%;
+
+
+    background-image: url("../resources/dashboardAssets/accounts_farmed-frame.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    border-radius: 5px;
+}
+.dashboard_panel-statistics-accounts_created-panel {
+    height:100%;
+
+    width:22%;
+
+
+    background-image: url("../resources/dashboardAssets/accounts_created-frame.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    border-radius: 5px;
+}
+.dashboard_panel-statistics-cards_created-panel {
+    height:100%;
+
+    width:22%;
+
+
+    background-image: url("../resources/dashboardAssets/cards_created-frame.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    border-radius: 5px;
+}
+.dashboard_panel-statistics-emails_created-panel {
+    height:100%;
+
+    width:22%;
+
+
+    background-image: url("../resources/dashboardAssets/emails_created-frame.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    border-radius: 5px;
+}
+
+.dashboard_panel-statistics-accounts_farmed-icon {
+    height:38px;
+    width:38px;
+    margin: 12px;
+
+
+    background-image: url("../resources/dashboardAssets/accounts_farmed-icon.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    border-radius: 5px;
+}
+.dashboard_panel-statistics-accounts_created-icon {
+    height:38px;
+    width:38px;
+    margin: 12px;
+
+    background-image: url("../resources/dashboardAssets/accounts_created-icon.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    border-radius: 5px;
+}
+.dashboard_panel-statistics-cards_created-icon {
+    height:38px;
+    width:38px;
+    margin: 12px;
+
+    background-image: url("../resources/dashboardAssets/cards_created-icon.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    border-radius: 5px;
+}
+.dashboard_panel-statistics-emails_created-icon {
+    height:38px;
+    width:38px;
+    margin: 12px;
+
+    background-image: url("../resources/dashboardAssets/emails_created-icon.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    border-radius: 5px;
+}
+
+
+
+
+
+.dashboard_panel-updates {
+    width:100%;
+    height:30%;
+
+    overflow-y:auto;
+}
+  .dashboard_panel-updates::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  .dashboard_panel-updates::-webkit-scrollbar-track {
+    background: #0E0E14;        /* color of the tracking area */
+  }
+  .dashboard_panel-updates::-webkit-scrollbar-thumb {
+    background-color: #15151D;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #0E0E14;  /* creates padding around scroll thumb */
+  }
+
+
+.dashboard_panel-status {
+    width:100%;
+    height:50%;
+
+    overflow-y:auto;
+}
+  .dashboard_panel-status::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  .dashboard_panel-status::-webkit-scrollbar-track {
+    background: #0E0E14;        /* color of the tracking area */
+  }
+  .dashboard_panel-status::-webkit-scrollbar-thumb {
+    background-color: #15151D;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #0E0E14;  /* creates padding around scroll thumb */
+  }

@@ -1,0 +1,128 @@
+
+h6.list_title {
+    font-family: SF Pro Display;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #F1F1F2;
+
+    user-select: none;
+
+    margin:0 15px 0 0;
+    display:inline;
+
+}
+p.list_description {
+    font-family: SF Pro Display;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8B8B9E;
+    user-select: none;
+
+    margin:0;
+
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+
+}
+
+
+
+.list_marker {
+    height:100%;
+    width:10%;
+
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+
+
+}
+.list_marker-single {
+    background-image: url("../../resources/componentAssets/list_marker-single.svg")
+}
+.list_marker-top {
+    background-image: url("../../resources/componentAssets/list_marker-top.svg")
+}
+.list_marker-mid {
+    background-image: url("../../resources/componentAssets/list_marker-middle.svg")
+}
+.list_marker-bottom {
+    background-image: url("../../resources/componentAssets/list_marker-bottom.svg")
+}
+
+.list_panel-main {
+
+    padding:10% 0 10% 0;
+
+    height:80%;
+    width:90%;
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.list_panel-main-header {
+    width:100%;
+    height:fit-content;
+}
+
+
+.update_panel {
+    width:100%;
+    height:56px;
+
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    transition:0.2s;
+
+    cursor:pointer;
+}
+.update_panel:hover {
+    background: #15151D;
+    border-radius: 3px;
+    transition:0.2s;
+}
+.update_panel:active {
+    background: #21212C;
+    border-radius: 3px;
+    transition:0.2s;
+}
+
+.status_panel {
+    width:100%;
+    height:56px;
+
+    display:flex;
+    justify-content: left;
+    align-items: center;
+
+    transition:0.2s;
+    cursor:pointer;
+}
+.status_panel:hover {
+    background: #15151D;
+    border-radius: 3px;
+}
+.status_panel:active {
+    background: #21212C;
+    border-radius: 3px;
+}
+
+
+
+
+

@@ -5,6 +5,12 @@
 /.pnp
 .pnp.js
 
+# hidden items
+chrome
+public
+debug
+
+
 # testing
 /coverage
 

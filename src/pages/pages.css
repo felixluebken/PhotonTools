@@ -1,0 +1,258 @@
+
+
+
+
+.page {
+    width:100%;
+    height:100%;
+
+
+}
+
+
+.page_header {
+    height:49px;
+    width: 100%;
+
+    display:flex;
+    justify-content:left;
+    align-items:center;
+}
+.page_header-section {
+    height:100%;
+    width:340px;
+}
+.page_title {
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color:white;
+
+
+    margin:0;
+    user-select: none;
+}
+
+
+.page_subtitle-container {
+
+    padding-top:8px;
+
+    height:21px;
+    width:100%;
+}
+.page_subtitle {
+    font-family: SF Pro Display;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    color:#8B8B9E;
+
+    margin: 13px 0 0 0;
+
+    user-select: none;
+}
+
+
+.page_body {
+    height:calc(100% - 49px);
+    width:100%;
+
+
+    display:flex;
+    justify-content:space-between;
+    align-items:top;
+    flex-wrap:wrap;
+}
+
+
+.page_body-header{
+    width:100%;
+    height:49px;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page_main-body {
+
+    width:100%;
+    height:calc(100% - 49px);
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page_body-col {
+
+    width:32%;
+    height:calc(100% - 20px);
+
+    padding-top:10px;
+
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+
+
+}
+.page_body-rows-container {
+    width:100%;
+    margin-bottom:40px;
+}
+
+.page_body-cols-container {
+    height:calc(100% - 26px);
+    width:100%;
+    overflow-y:auto;
+    overflow-x:hidden;
+} 
+.page_body-cols-container::-webkit-scrollbar {
+width: 12px;               /* width of the entire scrollbar */
+}
+.page_body-cols-container::-webkit-scrollbar-track {
+background: #0E0E14;        /* color of the tracking area */
+}
+.page_body-cols-container::-webkit-scrollbar-thumb {
+background-color: #15151D;    /* color of the scroll thumb */
+border-radius: 20px;       /* roundness of the scroll thumb */
+border: 3px solid #0E0E14;  /* creates padding around scroll thumb */
+}
+
+textarea.full-text {
+    padding: 10px 2% 10px 2%;
+
+    width:100%;
+    background: #15151D;
+    border: 1px solid #343444;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    font-family: SF Pro Display;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    outline:none;
+    resize: none;
+
+    color:#F1F1F2;
+
+}
+textarea.full-text::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+    }
+
+    textarea.full-text::-webkit-scrollbar-thumb {
+    background-color: #343444;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #15151D;  /* creates padding around scroll thumb */
+    }
+
+
+.page_body-row {
+    width:100%;
+    height:100%;
+    margin-top:10px;
+}
+
+
+.button_group {
+    height:31px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.bot_flex-group {
+    width:100%;
+    height:25%;
+    margin-bottom:20px;
+    overflow-x:auto;
+    
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+
+
+}
+.bot_flex-group::-webkit-scrollbar {
+    width: 16px;
+}
+.bot_flex-group::-webkit-scrollbar-track {
+    background-color:#0E0E14;
+    border-radius: 0 5px 5px 0;
+}
+
+.bot_flex-group::-webkit-scrollbar-thumb {
+    background: #1B1B24;
+    border:3px solid #0E0E14;
+    border-radius: 8px;
+}
+
+
+.timeline_container {
+    height:72%;
+    width:100%;
+    overflow-y:auto;
+    border-radius: 5px;
+}
+.timeline_container::-webkit-scrollbar {
+    width: 16px;
+}
+.timeline_container::-webkit-scrollbar-track {
+    background-color:#1B1B24;
+    border-radius: 0 5px 5px 0;
+}
+
+.timeline_container::-webkit-scrollbar-thumb {
+    background: #0E0E14;
+    border:3px solid #1B1B24;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+.nft_container {
+
+    width:100%;
+    height:calc(100% - 120px);
+    margin-top: 20px;
+
+
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    overflow-x:auto;
+
+}
+.nft_container::-webkit-scrollbar {
+    width: 16px;
+}
+.nft_container::-webkit-scrollbar-track {
+    background-color:#0E0E14;
+    border-radius: 0 5px 5px 0;
+}
+
+.nft_container::-webkit-scrollbar-thumb {
+    background: #1B1B24;
+    border:3px solid #0E0E14;
+    border-radius: 8px;
+}
